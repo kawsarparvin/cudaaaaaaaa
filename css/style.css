@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:0;
+    border: 0;
+    box-sizing:border-box;
+}
+header{
+   background-color: blueviolet;
+   padding-left: 50px;
+   padding-right: 50px;
+   width: 100%;
+}
+.container{
+   width: 90%;
+   padding: 40px;
+   margin: auto;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    float: left;
+width: 100%;
+
+}
+
+.logo-part img{
+    width: 100px;
+    height:100px;
+}
+.logo-part {
+        width: 50%;
+        transition: ease-in-out 0.8s;
+        float: left;
+}
+.menu-part a{
+    color: rgb(53, 0, 0);
+    text-decoration:none ;
+    float: left;
+    padding: 10px;
+    font-size:20px;
+    background-color:rgba(19, 118, 148, 0.267);
+    }
+    .menu-part a:hover{
+        background-color: white;
+        color:rgb(0, 0, 0);
+        transition: ease-in-out 0.03s;
+}
+.menu-part ul{
+text-align: end;
+
+}
+.menu-part li{
+    display: inline-block;
+   
+}
+
+.Hero-part { 
+    text-align: center;
+}
+.Hero-part button {
+    width:200px;
+    height:55px;
+    margin-top: 35px;
+    background-color: rgba(15, 97, 190, 0.144);
+ 
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.Hero-part a{
+    text-decoration: none;
+    color: white;
+}
+
+/**part01**/
+.Container2{
+    background-color: rgb(0, 165, 165);
+ width: 100%;
+ float: left;
+ padding: 80px 0px;
+}
+.Container2 p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.685);
+    margin-top: 15px;
+    
+}
+.Service{
+
+}
+.Service h1{
+text-align: center;
+color: white;
+}
+.BRANDING{
+width: 25%;
+float: left;
+padding: 20px;
+}
+.BRANDING img{
+    width:100px;
+    height:100px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.BRANDING h1{
+    color: white;
+    text-align: center;
+}
+.Design{
+width: 25%;
+float: left;
+padding: 20px;
+}
+.Design img{
+width: 100px;
+height:100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+margin-bottom: 40px;
+}
+.Design h1{
+color:white;
+text-align: center;
+}
+.Development{
+width: 25%;
+float: left;
+padding: 20px;
+}
+.Development h1{
+color: white;
+text-align: center;
+}
+.Development img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.Rocket-Science{
+width: 25%;
+float: left;
+padding: 20px;
+}
+.Rocket-Science h1{
+color:white;
+text-align: center;
+}
+.Rocket-Science img{
+width: 100px;
+height: 100px;
+display:block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+margin-bottom: 40px;
+}
+.Rocket-Science p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.685);
+   
+   
+}
+.Design p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.685);
+   
+
+}
+.Development p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.685);
+
+    
+}
+.Branding p{
+
+ text-align: center;
+color: rgba(255, 255, 255, 0.685);
+
+
+}
+/**part3**/
+.Container3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.685);
+    
+    padding: 80px;
+ background-color: rgb(153, 0, 255);
+ float: left;
+}
+
+
+.Team{
+margin-left: 200px;
+}
+.Team h1 {
+    text-align: center;
+  color: black;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Team p {
+ color: rgb(0, 0, 0);
+ margin-top: 35px;
+}
+.Stefan{
+    width:25%;
+    height:15%;
+ float: left;
+
+}
+.Stefan img{
+    width:100px;
+    height:100px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+.Stefan h1{
+ color: black;
+}
+.Stefan a{
+
+}
+.Stefan p{
+
+}
+.Piper{
+    width: 25%;
+    height: 15%;
+ 
+    float: left;
+}
+.Piper img{
+    width:100px;
+    height:100px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+ 
+}
+.Piper h1{
+ color: black;
+}
+.Gavin{
+    width: 25%;
+    height: 15%;
+  
+   float:left;
+}
+.Gavin img{
+    width:100px;
+    height:100px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+.Gavin h1{
+color: black;
+}
+.Gavin p{
+
+}
+.Gavin a{
+
+}
+.Ariana{
+   Width:25%;
+   height: 15%;
+   float: left;
+}
+.Ariana img{
+    width:100px;
+    height:100px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+.Ariana h1{
+color:black
+}
+.Ariana p{
+
+}
+.Ariana a{
+
+}
+/**part04**/
+.Container4{
+    float: left;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.685);
+    padding: 10px; 
+    background-color: aquamarine;
+    width: 100%;
+}
+.Skills{
+
+padding: 50px;
+}
+.Skills h1{
+color :black;
+text-transform: uppercase;
+
+text-align: center;
+}
+.Skills p{
+color: rgba(0, 0, 0, 0.411);
+padding:30px ;
+}
+.Web{
+ width: 25%;
+  float: left;
+}
+.Web img{
+width:100px;
+height: 100px;
+
+ display: block;
+margin-left: auto;
+ margin-right: auto;
+
+ 
+}
+.Web h1{
+    color: black;
+}
+.HTML{
+width: 25%;
+float: left;
+}
+.HTML img{
+width: 100px;
+height: 100px;
+display:block;
+margin-left:auto ;
+margin-right: auto;
+
+}
+.HTML h1{
+color: black;
+}
+.Graphic{
+width: 25%;
+float: left;
+}
+.Graphic img{
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.Graphic h1{
+color: black;
+}
+.UI{
+width: 25%;
+float: left;
+
+}
+.UI img{
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin-left:auto ;
+    margin-right: auto;  
+}
+.UI h1{
+color: black;
+}
+.width1{
+    width: 80%;
+    margin: auto;
+}
+/**part05**/
+.Container5{
+    float:left;
+   width:100%;
+    padding: 50px;
+
+    background-color: rgba(255, 105, 51, 0.685);
+}
+.sizer{
+    margin-left: auto;
+}
+.Steps{
+ padding-top: 30px;
+}
+.Steps h1{
+ text-transform: uppercase;
+ text-align: center;
+}
+.Steps p{
+text-align: center;
+padding-top: 30px;
+}
+.list{
+   
+}
+.list ul{
+  text-align: center;
+  
+}
+.list li{
+   display: inline-block;
+}
+.list a{
+    text-decoration: none;
+    background-color: rgba(126, 124, 124, 0.308);
+}
+.list a:hover{
+    background-color: white;
+}
+.Laptop1{
+width:50%;
+float: left;
+}
+.Laptop1 img{
+     margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.Laptop1 h1{
+text-transform: uppercase;
+text-align: center;
+}
+.Laptop2{
+ width: 50%;
+ float: left;
+ text-align: center;
+}
+.Laptop2 img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.Laptop h1{
+text-transform: uppercase;
+}
+.Laptop3{
+width:50%;
+ float: left;
+}
+.Laptop3 img{
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+.Laptop3 h1{
+text-transform: uppercase;
+text-align: center;
+}
+.Laptop4{
+width: 50%;
+float: left;
+
+}
+.Laptop4 img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.Laptop4 h1{
+ text-transform: uppercase;
+ text-align: center;
+}
+.sizer button{
+    margin: auto;
+    background-color: aqua;
+    display: block;
+}
+.sizer a{ 
+     background-color: rgb(255, 255, 255);
+     text-decoration: none;
+}
+/**part6**/
+.Container6{
+    float:left;
+   width:100%;
+  padding: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+  background-color: rgb(245, 17, 131);
+}
+.Comments{
+  text-align: center;
+}
+.Comments h1{
+}
+.Comments p{
+padding-top: 30px;
+}
+.Comment1{
+  
+      float: left;  
+}
+.Comment1 img{
+    width:100px;
+ border-radius: 50px;
+}
+.Comment1 h1{
+    width: 40%;
+    float: right;
+}
+.Comment2 {
+  float:left;
+}
+.Comment2 img{
+width: 100px;
+border-radius: 50px;
+}
+.Comment2 h1{
+float:right
+}
+.Comment3{
+float: left;
+}
+.Comment3 img{
+width:100px ;
+border-radius: 50px;
+}
+.Comment3 h1{
+float: right;
+}
+.Comment4{
+float: left;
+}
+.Comment4 img{
+width:100px;
+border-radius: 50px;
+}
+.Comment4 h1{
+    float: right;
+}
+footer{
+    float:left;
+    width:100%;
+   text-align: center;
+    background-color: rgb(173, 17, 245)    
+}
+footer h1{
+  
+    float:left;
+    padding: 25px;
+}
+footer h1:hover{
+     color: white;
+    background-color: rgba(100, 100, 231, 0.733);
+}
